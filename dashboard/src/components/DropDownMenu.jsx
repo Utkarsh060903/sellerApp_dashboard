@@ -29,7 +29,7 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addData } from "../slices/dataSlice.js";
-import down from "../assets/down_Arrow.svg";
+import down from "../assets/down_arrow.svg";
 
 const DropdownMenu = () => {
   const dispatch = useDispatch()
