@@ -150,7 +150,7 @@ import openNav from "../assets/open-nav-icon.svg";
 import closeNav from "../assets/close-nav-icon.svg";
 import light from "../assets/light-toggle.svg"
 import dark from "../assets/dark-toggle.svg"
-import ToggleButton from "./toggleButton";
+import ToggleButton from "./ToggleButton.jsx";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
