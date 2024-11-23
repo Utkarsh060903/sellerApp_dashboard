@@ -1,31 +1,3 @@
-// import React from "react";
-// import { addData } from "../slices/dataSlice.js";
-// import { useSelector, useDispatch } from "react-redux";
-
-// const DropdownMenu = () => {
-//   const dispatch = useDispatch();
-
-//   const submitHandler = (e) => {
-//     dispatch(addData(e.target.value));
-//   };
-//   // const [value, setValue] = useState(0);
-
-//   const value = useSelector((state) => state.data);
-
-//   return (
-//     <div>
-//       <select name="cars" id="cars" value={value} onChange={submitHandler}>
-//         <option value="0">US</option>
-//         <option value="1">Germany</option>
-//         <option value="2">France</option>
-//         <option value="3">Belgium</option>
-//       </select>
-//     </div>
-//   );
-// };
-
-// export default DropdownMenu;
-
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addData } from "../slices/dataSlice.js";

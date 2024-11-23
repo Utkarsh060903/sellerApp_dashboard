@@ -115,14 +115,6 @@ const MainContent = ({ countryData }) => {
           <p className="text-2xl font-bold dark:text-white">
             {totalViews.toFixed(2)}
           </p>
-          {/* <p
-            className={`text-sm ${
-              viewChange > 0 ? "text-green-500" : "text-red-500"
-            }`}
-          >
-            {viewChange > 0 ? "↑" : "↓"} {viewChange.toFixed(2)}% Compared to
-            last month
-          </p> */}
           <p className="text-sm flex gap-2 dark:text-white-6">
             <div
               className={`bg-black border-none rounded p-[2px] ${
@@ -204,9 +196,7 @@ const MainContent = ({ countryData }) => {
         </div>
       </div>
 
-      {/* Bottom Section */}
       <div className="grid grid-cols-3 gap-4 mt-6">
-        {/* Registered Users Gauge */}
         <div className="col-span-1 bg-white p-4 rounded-lg shadow-md dark:bg-custom-blue relative">
           <UserStatsGauge registeredUsers={registeredUsers} />
           <div className="flex flex-col items-center justify-between gap-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
